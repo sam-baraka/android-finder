@@ -16,6 +16,15 @@
 		A2FC5E562A936DE10098DF0F /* android_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E552A936DE10098DF0F /* android_finderTests.swift */; };
 		A2FC5E602A936DE10098DF0F /* android_finderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E5F2A936DE10098DF0F /* android_finderUITests.swift */; };
 		A2FC5E622A936DE10098DF0F /* android_finderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E612A936DE10098DF0F /* android_finderUITestsLaunchTests.swift */; };
+		A2FC5E752A93765B0098DF0F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E742A93765B0098DF0F /* SplashView.swift */; };
+		A2FC5E762A93765B0098DF0F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E742A93765B0098DF0F /* SplashView.swift */; };
+		A2FC5E772A93765B0098DF0F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E742A93765B0098DF0F /* SplashView.swift */; };
+		A2FC5E792A9377770098DF0F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E782A9377770098DF0F /* AppView.swift */; };
+		A2FC5E7A2A9377770098DF0F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E782A9377770098DF0F /* AppView.swift */; };
+		A2FC5E7B2A9377770098DF0F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E782A9377770098DF0F /* AppView.swift */; };
+		A2FC5E7E2A9377E70098DF0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E7D2A9377E70098DF0F /* HomeView.swift */; };
+		A2FC5E7F2A9377E70098DF0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E7D2A9377E70098DF0F /* HomeView.swift */; };
+		A2FC5E802A9377E70098DF0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5E7D2A9377E70098DF0F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2FC5E3B2A936DE00098DF0F /* android-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "android-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FC5E3B2A936DE00098DF0F /* Android Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Android Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FC5E3E2A936DE00098DF0F /* android_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = android_finderApp.swift; sourceTree = "<group>"; };
 		A2FC5E402A936DE00098DF0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2FC5E422A936DE10098DF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		A2FC5E5B2A936DE10098DF0F /* android-finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "android-finderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FC5E5F2A936DE10098DF0F /* android_finderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = android_finderUITests.swift; sourceTree = "<group>"; };
 		A2FC5E612A936DE10098DF0F /* android_finderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = android_finderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2FC5E742A93765B0098DF0F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A2FC5E782A9377770098DF0F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		A2FC5E7D2A9377E70098DF0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +101,7 @@
 		A2FC5E3C2A936DE00098DF0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2FC5E3B2A936DE00098DF0F /* android-finder.app */,
+				A2FC5E3B2A936DE00098DF0F /* Android Finder.app */,
 				A2FC5E512A936DE10098DF0F /* android-finderTests.xctest */,
 				A2FC5E5B2A936DE10098DF0F /* android-finderUITests.xctest */,
 			);
@@ -99,6 +111,7 @@
 		A2FC5E3D2A936DE00098DF0F /* android-finder */ = {
 			isa = PBXGroup;
 			children = (
+				A2FC5E6E2A9374700098DF0F /* Views */,
 				A2FC5E3E2A936DE00098DF0F /* android_finderApp.swift */,
 				A2FC5E402A936DE00098DF0F /* ContentView.swift */,
 				A2FC5E422A936DE10098DF0F /* Assets.xcassets */,
@@ -135,12 +148,38 @@
 			path = "android-finderUITests";
 			sourceTree = "<group>";
 		};
+		A2FC5E6E2A9374700098DF0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2FC5E7C2A9377CF0098DF0F /* HomeView */,
+				A2FC5E6F2A93747A0098DF0F /* SplashView */,
+				A2FC5E782A9377770098DF0F /* AppView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2FC5E6F2A93747A0098DF0F /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				A2FC5E742A93765B0098DF0F /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		A2FC5E7C2A9377CF0098DF0F /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				A2FC5E7D2A9377E70098DF0F /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2FC5E3A2A936DE00098DF0F /* android-finder */ = {
+		A2FC5E3A2A936DE00098DF0F /* Android Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2FC5E652A936DE10098DF0F /* Build configuration list for PBXNativeTarget "android-finder" */;
+			buildConfigurationList = A2FC5E652A936DE10098DF0F /* Build configuration list for PBXNativeTarget "Android Finder" */;
 			buildPhases = (
 				A2FC5E372A936DE00098DF0F /* Sources */,
 				A2FC5E382A936DE00098DF0F /* Frameworks */,
@@ -150,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = "android-finder";
+			name = "Android Finder";
 			productName = "android-finder";
-			productReference = A2FC5E3B2A936DE00098DF0F /* android-finder.app */;
+			productReference = A2FC5E3B2A936DE00098DF0F /* Android Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A2FC5E502A936DE10098DF0F /* android-finderTests */ = {
@@ -227,7 +266,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2FC5E3A2A936DE00098DF0F /* android-finder */,
+				A2FC5E3A2A936DE00098DF0F /* Android Finder */,
 				A2FC5E502A936DE10098DF0F /* android-finderTests */,
 				A2FC5E5A2A936DE10098DF0F /* android-finderUITests */,
 			);
@@ -266,9 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FC5E482A936DE10098DF0F /* Persistence.swift in Sources */,
+				A2FC5E7E2A9377E70098DF0F /* HomeView.swift in Sources */,
 				A2FC5E412A936DE00098DF0F /* ContentView.swift in Sources */,
+				A2FC5E792A9377770098DF0F /* AppView.swift in Sources */,
 				A2FC5E3F2A936DE00098DF0F /* android_finderApp.swift in Sources */,
 				A2FC5E4B2A936DE10098DF0F /* android_finder.xcdatamodeld in Sources */,
+				A2FC5E752A93765B0098DF0F /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FC5E562A936DE10098DF0F /* android_finderTests.swift in Sources */,
+				A2FC5E7F2A9377E70098DF0F /* HomeView.swift in Sources */,
+				A2FC5E762A93765B0098DF0F /* SplashView.swift in Sources */,
+				A2FC5E7A2A9377770098DF0F /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +329,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FC5E7B2A9377770098DF0F /* AppView.swift in Sources */,
 				A2FC5E622A936DE10098DF0F /* android_finderUITestsLaunchTests.swift in Sources */,
+				A2FC5E772A93765B0098DF0F /* SplashView.swift in Sources */,
+				A2FC5E802A9377E70098DF0F /* HomeView.swift in Sources */,
 				A2FC5E602A936DE10098DF0F /* android_finderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +342,12 @@
 /* Begin PBXTargetDependency section */
 		A2FC5E532A936DE10098DF0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2FC5E3A2A936DE00098DF0F /* android-finder */;
+			target = A2FC5E3A2A936DE00098DF0F /* Android Finder */;
 			targetProxy = A2FC5E522A936DE10098DF0F /* PBXContainerItemProxy */;
 		};
 		A2FC5E5D2A936DE10098DF0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2FC5E3A2A936DE00098DF0F /* android-finder */;
+			target = A2FC5E3A2A936DE00098DF0F /* Android Finder */;
 			targetProxy = A2FC5E5C2A936DE10098DF0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -423,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "android-finder/android_finder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -432,6 +481,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "android-finder/android_finder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -459,6 +510,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -556,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2FC5E652A936DE10098DF0F /* Build configuration list for PBXNativeTarget "android-finder" */ = {
+		A2FC5E652A936DE10098DF0F /* Build configuration list for PBXNativeTarget "Android Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2FC5E662A936DE10098DF0F /* Debug */,
