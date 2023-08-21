@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AppView: View {
-    @State private var showSplash = true
+    @State private var showSplash = false
     var body: some View {
         Group{
             if !showSplash {
@@ -16,7 +16,7 @@ struct AppView: View {
                     .onAppear {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                             withAnimation {
-                                showSplash = false
+                                showSplash = true
                             }
                         }
                     }
